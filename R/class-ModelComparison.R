@@ -3,7 +3,7 @@
 #' @md
 #' @importClassesFrom S4Vectors DataFrame
 #' @export
-.ModelComparison <- setClass('ModelComparison', contains='DataFrame')
+.ModelComparison <- setClass('ModelComparison', contains='DFrame')
 
 #' ModelComparison Constructor
 #'
