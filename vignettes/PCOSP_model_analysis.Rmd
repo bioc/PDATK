@@ -121,6 +121,7 @@ PCOSPmodel <- PCOSP(ICGCtrainCohorts, minDaysSurvived=365, randomSeed=1987)
 # view the model parameters; these make your model run reproducible
 metadata(PCOSPmodel)$modelParams
 ```
+
 ## Training a PCOSP Model
 
 To simplify working with different `SurvivalModel` sub-classes, we have 
@@ -427,7 +428,6 @@ clinicalModel <- ClinicalModel(ICGCtrainCohorts,
 
 
 ## Train the Model
-
 
 ```{r ClinicalModel_training}
 trainedClinicalModel <- trainModel(clinicalModel)
